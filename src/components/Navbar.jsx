@@ -24,6 +24,9 @@ export default function Navbar() {
 
         <nav className="hidden items-center gap-6 md:flex">
           <NavLink to="/" className={navClass}>Басты бет</NavLink>
+          <NavLink to="/hash-demo" className={navClass}>
+            Hash Demo
+          </NavLink>
           <NavLink to="/courses" className={navClass}>Курстар</NavLink>
           <NavLink to="/dashboard" className={navClass}>Жеке кабинет</NavLink>
           <NavLink to="/certificate" className={navClass}>Сертификат</NavLink>

@@ -11,6 +11,7 @@ import LessonPage from "../pages/LessonPage";
 import QuizPage from "../pages/QuizPage";
 import CertificatePage from "../pages/CertificatePage";
 import VerifyCertificatePage from "../pages/VerifyCertificatePage";
+import HashDemoPage from "../pages/HashDemoPage";
 
 export default function AppRoutes() {
   return (
@@ -18,6 +19,7 @@ export default function AppRoutes() {
       <Route element={<MainLayout />}>
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/hash-demo" element={<HashDemoPage />} />
         <Route path="/register" element={<RegisterPage />} />
 
         <Route
